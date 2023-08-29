@@ -1,4 +1,5 @@
 /* header section */
+
 body{
     margin: 0px;
 }
@@ -56,11 +57,10 @@ header div{
 main{
     padding-top: 50px;
 }
-/* .main-title{
-    position: absolute;
-    align-self: center;
-    width: 300px;
-} */
+.main-title{
+    width: 400px;
+    margin: auto;
+}
 .main-title h3{
     color: #272727;
     text-align: center;
@@ -180,10 +180,77 @@ main{
 
 .get-the-last-deal{
     align-items: center;
-    margin: 50px;
+    margin: 85px;
+    background-image: url("bg-images/Rectangle\ 9.png");
+    height: 250px;
+    text-align: center;
+    padding-top: 100px;
+    /* width: 1050px; */
+    background-size: contain;
 
 }
+.get-the-last-deal h2{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 800;
+    marker-end: 0px;
+    padding-bottom: 0px;
+}
+.get-the-last-deal p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+}
+#get-the-last-deal-mail{
+    width: 400px;
+    height: 25px;
+}
+#get-the-last-deal-subs{
+    width: 75px;
+    border-radius: 4px;
+    margin-left: 5px;
+    background-color: #E55473;
+    border: 4px solid #E55473;
+    height: 30px;
+    color: white;
+    font-family: Lato;
+}
+/* bonus part- adding info about our national flower */
 
+.national-flower{
+    display: flex;
+    justify-content: space-between;
+    background-color:yellow;
+    margin: 0 0 150px 0;
+    padding: 0px;
+    align-items: center;
+    text-align: center;
+    padding: 10px 100px 100px 100px;
+    vertical-align: middle;   
+}
+.national-flower>div{
+    max-width: 50%;
+    margin-top: 50px;
+}
+.national-flower>div>img{
+    max-width: 450px;
+    max-height: 400px;
+}
+.national-flower h1{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+/* ek click ei foot */
 footer{
     background-color: black;
     margin: 20px 0px 0px 0px;
